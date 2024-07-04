@@ -1,6 +1,6 @@
 # JSON to VCF Converter
 
-This is a Python script that converts a JSON file containing contact information into a VCF (vCard) file. This script reads a JSON file with contact details and generates a corresponding VCF file, which can be imported into various contact management applications.
+This is a Python script that converts a JSON file containing contact information into a VCF (vCard) file. This script reads a JSON file with contact details and generates a corresponding VCF file, which can be imported into various contact management applications. You can use this script to convert your Telegram contacts JSON file to VCF format.
 
 ## Features
 - Converts JSON formatted contact data to VCF format.
@@ -66,6 +66,9 @@ The script consists of two main functions:
 ### Error Handling
 - The script handles `UnicodeDecodeError` when reading the JSON file and `IOError` when writing to the VCF file.
 - It also checks if the JSON file exists and if the JSON data is not empty or incorrectly formatted.
+
+## Converting Telegram JSON
+- You can use this script to convert your Telegram contacts JSON file to VCF format. Export your Telegram contacts to a JSON file and follow the usage instructions to convert it to a VCF file.
 
 ## Notes
 - Ensure your JSON file is properly formatted and contains the required fields: `first_name`, `last_name`, `phone_number`, and `date` (optional).
